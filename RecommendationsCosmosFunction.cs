@@ -24,7 +24,7 @@ namespace RecommendationsCosmosFunctionApp
                 IEnumerable<Recommendation> recommendations,
             ILogger log)
         {
-            return new OkObjectResult("Hello!!");
+            return new OkObjectResult(recommendations);
         }
 
         public class Recommendation
